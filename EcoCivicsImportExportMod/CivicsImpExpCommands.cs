@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using System.Threading.Tasks;
 
-namespace Eco.Mods.CivicsImpExp
+namespace Eco.Mods.LawfulMod.CivicsImpExp
 {
     using Core.Systems;
 

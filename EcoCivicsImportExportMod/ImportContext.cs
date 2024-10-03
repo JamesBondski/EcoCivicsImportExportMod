@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using Newtonsoft.Json.Linq;
 
-namespace Eco.Mods.CivicsImpExp
+namespace Eco.Mods.LawfulMod.CivicsImpExp
 {
     using Core.Utils;
     using Core.Systems;

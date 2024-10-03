@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Newtonsoft.Json.Linq;
 
-namespace Eco.Mods.CivicsImpExp
+namespace Eco.Mods.LawfulMod.CivicsImpExp
 {
     public interface ICivicsImpExpMigratorV1
     {

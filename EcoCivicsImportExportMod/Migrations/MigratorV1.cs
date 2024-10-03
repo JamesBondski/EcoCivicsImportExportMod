@@ -7,7 +7,7 @@ using System.Reflection;
 
 using Newtonsoft.Json.Linq;
 
-namespace Eco.Mods.CivicsImpExp.Migrations
+namespace Eco.Mods.LawfulMod.CivicsImpExp.Migrations
 {
     using Shared.Utils;
 

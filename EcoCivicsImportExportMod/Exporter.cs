@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Newtonsoft.Json;
 
-namespace Eco.Mods.CivicsImpExp
+namespace Eco.Mods.LawfulMod.CivicsImpExp
 {
     using Core.Systems;
 

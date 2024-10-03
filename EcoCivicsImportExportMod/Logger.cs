@@ -1,4 +1,4 @@
-﻿namespace Eco.Mods.CivicsImpExp
+﻿namespace Eco.Mods.LawfulMod.CivicsImpExp
 {
     using Shared.Logging;
     using Shared.Localization;

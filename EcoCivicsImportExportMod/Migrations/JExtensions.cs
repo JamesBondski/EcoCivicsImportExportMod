@@ -2,7 +2,7 @@
 
 using Newtonsoft.Json.Linq;
 
-namespace Eco.Mods.CivicsImpExp.Migrations
+namespace Eco.Mods.LawfulMod.CivicsImpExp.Migrations
 {
     public static class JExtensions
     {
