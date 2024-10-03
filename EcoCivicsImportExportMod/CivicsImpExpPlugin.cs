@@ -11,7 +11,8 @@ namespace Eco.Mods.CivicsImpExp
 
     using Shared.Utils;
 
-    public class CivicsImpExpPlugin : Singleton<CivicsImpExpPlugin>, IModKitPlugin, IInitializablePlugin
+    // Removed plugin interfaces to keep Eco from loading this plugin
+    public class CivicsImpExpPlugin : Singleton<CivicsImpExpPlugin>//, IModKitPlugin, IInitializablePlugin
     {
         public const string ImportExportDirectory = "civics";
 
