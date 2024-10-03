@@ -3,7 +3,7 @@ using System.Linq;
 using System.IO;
 using System.Collections.Generic;
 
-namespace Eco.Mods.CivicsImpExp
+namespace Eco.Mods.LawfulMod.CivicsImpExp
 {
     using Core.Plugins.Interfaces;
     using Core.Utils;
