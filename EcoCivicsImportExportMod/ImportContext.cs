@@ -202,7 +202,7 @@ namespace Eco.Mods.LawfulMod.CivicsImpExp
             }
         }
 
-        private object DeserialiseGenericObject(JObject obj, Type expectedType)
+        public object DeserialiseGenericObject(JObject obj, Type expectedType)
         {
             string typeName = obj.Value<string>("type");
             Type type = ResolveType(typeName);
