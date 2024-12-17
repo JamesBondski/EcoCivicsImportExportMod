@@ -34,6 +34,8 @@ namespace Eco.Mods.LawfulMod.CivicsImpExp
 
         public IDictionary<CivicReference, IHasID> ReferenceMap { get; } = new Dictionary<CivicReference, IHasID>();
 
+        public IDictionary<(string, string), string> ReferenceNameMap { get; } = new Dictionary<(string, string), string>();
+
         public IHasID ImportStub(BundledCivic bundledCivic)
         {
             var obj = bundledCivic.CreateStub();
@@ -218,6 +220,10 @@ namespace Eco.Mods.LawfulMod.CivicsImpExp
             bool isRef = obj.Value<bool>("reference");
             if (isRef)
             {
+                if (ReferenceNameMap.TryGetValue((typeName, name), out string mappedName))
+                {
+                    name = mappedName;
+                }
                 if (string.IsNullOrEmpty(name))
                 {
                     throw new InvalidOperationException($"Can't deserialise a reference to '{typeName}' (missing name)");
